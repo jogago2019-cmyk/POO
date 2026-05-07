@@ -44,7 +44,7 @@ public class Concesionaria {
 ```
 
 ## Clase Persona
-..java
+```java
 public  class Persona {
     private String nombre;
     private String apellido;
@@ -82,7 +82,7 @@ public  class Persona {
     public void setDni(String dni) {
         this.dni = dni;
     }}
-...
+```
 
 ## Clase Vehículo
 ```java
