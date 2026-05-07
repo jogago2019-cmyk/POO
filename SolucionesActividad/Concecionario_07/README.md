@@ -1,5 +1,5 @@
 ## Clase Concecionario (main)
-...java
+```java
 public class Concesionaria {
 
     /**
@@ -41,7 +41,7 @@ public class Concesionaria {
         }
     }
 
-...
+```
 
 ## Clase Persona
 ..java
@@ -85,7 +85,7 @@ public  class Persona {
 ...
 
 ## Clase Vehículo
-...java
+```java
 public abstract class Vehiculo {
     protected String modelo;
     protected String marca;
@@ -137,10 +137,10 @@ public abstract class Vehiculo {
     public abstract String mostrarInfo();
 }
 
-...
+```
 
 ## Clase Automovil
-...java
+```java
 public class automovil extends Vehiculo {
     private float puertas;
 
@@ -170,10 +170,10 @@ public class automovil extends Vehiculo {
     }
 }
 
-...
+```
 
 ## Clase motocicleta
-...java
+```java
 public class motocicleta extends Vehiculo {
    private String cilindrada;
 
@@ -203,11 +203,11 @@ public class motocicleta extends Vehiculo {
     }
 }
 
-...
+```
 
 ## Clase Venta
 
-'''java
+```java
 public class Venta {
 private Persona cliente;
     private Persona vendedor;
@@ -230,4 +230,4 @@ private Persona cliente;
         System.out.println("Fecha: " + fecha);
     }
 }
-'''
+```
